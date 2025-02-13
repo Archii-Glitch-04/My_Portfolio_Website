@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('home')">Home</a></li>
+                <li><a href="#" onclick="showSection('projects')">Projects</a></li>
+                <li><a href="#" onclick="showSection('skills')">Skills</a></li>
+                <li><a href="#" onclick="showSection('co-curricular')">Co-Curricular</a></li>
+                <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section active">
+        <div class="profile-container">
+            <img src="images/main.jpg" alt="Profile Picture" class="profile-pic">
+            <h1>Hello!!, I am Archana Kumari</h1>
+            <p class="description">
+                A third-year B.Tech student at MIT WPU, specializing in Electrical and Electronics Engineering. 
+                Passionate about Data Science, IoT, and Embedded Systems.<br>
+                <strong>Hobbies:</strong> Hiking & Traveling.
+            </p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>My Projects</h2>
+        <div class="card">
+            <h3>Online Shopping System using C</h3>
+            <p>Developed a console-based shopping system with file handling and structured programming to manage product listings, cart operations, and order processing.</p>
+        </div>
+        <div class="card">
+            <h3>Event Management System using SQL and Power BI</h3>
+            <p>Designed a database-driven event system with MySQL for data handling and Power BI for interactive visualization, aiding seamless event planning.</p>
+        </div>
+        <div class="card">
+            <h3>Wireless Electric Vehicle System</h3>
+            <p>Developed an IoT-based wireless EV charging system using ESP32 and RFID authentication, enabling efficient and automated charging solutions.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="card">
+            <h3>Data Science</h3>
+            <p>Experience in data analysis, machine learning, and visualization techniques to extract meaningful insights from datasets.</p>
+        </div>
+    </section>
+
+    <!-- Co-Curricular Section -->
+    <section id="co-curricular" class="section">
+        <h2>Co-Curricular Activities</h2>
+        <div class="card">
+            <h3>Technical Team Member at Acceleracers MIT WPU</h3>
+            <p>Worked on designing and implementing innovative technical solutions for automotive projects, enhancing team collaboration and efficiency.</p>
+        </div>
+        <div class="card">
+            <h3>National Academic Immersion Program to IIT Jodhpur</h3>
+            <p>Gained exposure to advanced research and technological advancements in engineering through hands-on workshops and industry interactions.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <div class="card">
+            <p><strong>Email:</strong> <a href="mailto:1032211457@mitwpu.edu.in">1032211457@mitwpu.edu.in</a></p>
+            <p><strong>Phone:</strong> 8850421452</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2025 Archana | My Portfolio | Created with ❤️</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
